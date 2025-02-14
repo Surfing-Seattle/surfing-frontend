@@ -4,6 +4,18 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  cursor: url('/chopstick-cursor-open-64.png') 32 32, auto;
+}
+
+/* Interactive elements hover state */
+a:hover,
+button:hover,
+[role="button"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+select:hover {
+  cursor: url('/chopstick-cursor-click.png') 32 32, pointer;
 }
 
 @layer utilities {
@@ -74,5 +86,5 @@ body {
 
 /* Cursor styles */
 .cursor-chopsticks {
-  cursor: url('/chopstick-cursor.png'), pointer;
+  cursor: url('/chopstick-cursor-medium.png') 32 32, url('/chopstick-cursor-medium.cur') 32 32, pointer;
 }

@@ -64,7 +64,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-display text-white lowercase">fermentation = growth</h3>
                 <p className="text-center text-white/80 relative z-10">
-                  We believe in steady growth and building lasting value. Kimchi token matures with time, just like Korea's favorite dish.
+                  We believe in steady growth and building lasting value. Kimchi token matures with time, just like Korea&apos;s favorite dish.
                 </p>
               </CardContent>
             </Card>
@@ -133,18 +133,18 @@ export default function Home() {
               <div className="space-y-8 text-white/80">
                 <p>
                   Some things in life transcend, and Kimchi is one of them. For generations, this fiery,
-                  fermented staple has been more than just food—it's a symbol of resilience, transformation, and
-                  unapologetic boldness. It's the spice that fuels Korean spirit, a dish so unique it's been passed down
+                  fermented staple has been more than just food—it&apos;s a symbol of resilience, transformation, and
+                  unapologetic boldness. It&apos;s the spice that fuels Korean spirit, a dish so unique it&apos;s been passed down
                   through centuries.
                 </p>
                 <p>
-                  Kimchi Token brings that same spicy energy into Web3. Korean founder "made in
-                  America" with a husband "made in Korea," this meme coin is more than just crypto—it's a movement. A
+                  Kimchi Token brings that same spicy energy into Web3. Korean founder &quot;made in
+                  America&quot; with a husband &quot;made in Korea,&quot; this meme coin is more than just crypto—it&apos;s a movement. A
                   celebration.
                 </p>
                 <p>
-                  From K-Pop domination to Samsung's tech empire, from Hyundai & Kia reshaping the auto industry to
-                  K-beauty setting the skincare gold standard—Korea isn't just thriving, it's leading.
+                  From K-Pop domination to Samsung&apos;s tech empire, from Hyundai &amp; Kia reshaping the auto industry to
+                  K-beauty setting the skincare gold standard—Korea isn&apos;t just thriving, it&apos;s leading.
                 </p>
                 <p>
                   And at the center of it all? Kimchi. The OG superfood. The lifeblood of Korean meals. A dish
@@ -159,15 +159,15 @@ export default function Home() {
         </div>
       </section>
 
-        {/* Solana Wallet Section */}
-        <section className="relative px-4 py-32 bg-white overflow-hidden">
+      {/* Solana Wallet Section */}
+      <section className="relative px-4 py-32 bg-white overflow-hidden">
           {/* Background Elements */}
           <div className="absolute inset-0">
             <div className="absolute left-0 w-1/3 blur-3xl bg-gradient-to-r from-kimchi-red via-kimchi-orange to-transparent opacity-50" />
             <div className="absolute right-0 w-1/3 blur-3xl bg-gradient-to-l from-kimchi-yellow via-kimchi-orange to-transparent opacity-50" />
           </div>
 
-          <div className="container relative max-w-6xl mx-auto">
+        <div className="container relative max-w-6xl mx-auto">
             <div className="flex flex-col items-center text-center space-y-12">
               <h2 className="font-display text-4xl sm:text-5xl lowercase text-primary">
                 The future is Fermented
@@ -175,7 +175,7 @@ export default function Home() {
               <div className="h-1 w-24 bg-gradient-to-r from-kimchi-red via-kimchi-orange to-kimchi-yellow rounded-full" />
               <div className="space-y-8 max-w-[600px]">
                 <p className="text-primary/80 text-xl font-display">
-                  Kimchi is timeless. So is Kimchi Token. Whether you're here for the culture, the crypto, or the 🔥 memes, you're in the right place.
+                  Kimchi is timeless. So is Kimchi Token. Whether you&apos;re here for the culture, the crypto, or the 🔥 memes, you&apos;re in the right place.
                 </p>
               </div>
               {/* Social Media Icons */}

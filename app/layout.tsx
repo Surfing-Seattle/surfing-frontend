@@ -17,6 +17,9 @@ const merriweather = Merriweather({
 export const metadata: Metadata = {
   title: "Kimchi Token | Seoul Food for Your Soul",
   description: "The spiciest meme token on Solana.",
+  icons: {
+    icon: "/kimchi-logo-1-no-bg.png",
+  },
 }
 
 export default function RootLayout({
@@ -28,7 +31,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="preload" href="/chopsticks-cursor.png" as="image" />
-        <link rel="preload" href="/chopsticks-cursor-click.png" as="image" />
       </head>
       <body className={`${montserrat.variable} ${merriweather.variable}`}>{children}</body>
     </html>
