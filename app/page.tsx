@@ -1,8 +1,7 @@
 'use client'
 
-import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { ChevronDown, Rocket, Users, Wallet } from "lucide-react"
+import { ChevronDown, Rocket, Users } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { BuyButton } from "@/components/buttons/buy-button"
