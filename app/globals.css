@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global cursor style */
 body {
-  font-family: Arial, Helvetica, sans-serif;
   cursor: url('/chopstick-cursor-open-64.png') 32 32, auto;
 }
 
@@ -15,13 +15,7 @@ input[type="submit"]:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 select:hover {
-  cursor: url('/chopstick-cursor-click.png') 32 32, pointer;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  cursor: url('/chopstick-cursor-click-64.png') 32 32, pointer;
 }
 
 @layer base {
@@ -52,6 +46,7 @@ select:hover {
     --chart-5: 340 75% 55%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 0 0% 8%; /* #141414 */
     --foreground: 0 0% 98%;
@@ -84,7 +79,8 @@ select:hover {
   }
 }
 
-/* Cursor styles */
-.cursor-chopsticks {
-  cursor: url('/chopstick-cursor-medium.png') 32 32, url('/chopstick-cursor-medium.cur') 32 32, pointer;
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }

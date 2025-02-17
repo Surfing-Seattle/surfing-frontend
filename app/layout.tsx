@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Kimchi Token | Seoul Food for Your Soul",
   description: "The spiciest meme token on Solana.",
   icons: {
-    icon: "/kimchi-logo-1-no-bg.png",
+    icon: "/favicon.ico"
   },
 }
 
@@ -30,7 +30,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="preload" href="/chopsticks-cursor.png" as="image" />
+        <link rel="preload" href="/chopstick-cursor-open-64.png" as="image" type="image/png" />
+        <link rel="preload" href="/chopstick-cursor-click-64.png" as="image" type="image/png" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={`${montserrat.variable} ${merriweather.variable}`}>{children}</body>
     </html>
