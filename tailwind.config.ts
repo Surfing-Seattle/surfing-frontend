@@ -21,8 +21,8 @@ module.exports = {
         body: ['var(--font-merriweather)'],
       },
       cursor: {
-        'chopsticks': 'url("/chopsticks-cursor.png"), auto',
-        'chopsticks-click': 'url("/chopsticks-cursor-click.png"), pointer',
+        'chopsticks': 'url("/chopstick-cursor-open-64.png"), auto',
+        'chopsticks-click': 'url("/chopstick-cursor-click-64.png"), pointer',
       },
       colors: {
         kimchi: {

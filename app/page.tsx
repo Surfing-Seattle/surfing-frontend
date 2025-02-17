@@ -20,6 +20,7 @@ export default function Home() {
               alt="Kimchi Token Logo"
               width={480}
               height={480}
+              priority
               className="relative animate-wave"
             />
           </div>
