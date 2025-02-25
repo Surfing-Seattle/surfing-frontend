@@ -6,6 +6,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { BuyButton } from "@/components/buttons/buy-button"
 import { WalletButton } from "@/components/buttons/wallet-button"
+import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
@@ -62,13 +63,15 @@ export default function Home() {
                 <div className="p-4 bg-gradient-to-br from-kimchi-red/90 to-kimchi-orange/90 rounded-full transform group-hover:scale-105 transition-transform duration-500">
                   <Rocket className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-display text-white lowercase">fermentation = growth</h3>
+                <div className="flex flex-col items-center space-y-4">
+                  <h3 className="text-2xl font-display text-white lowercase text-center">fermentation = growth</h3>
+                </div>
                 <p className="text-center text-white/80 relative z-10">
                   We believe in steady growth and building lasting value. Kimchi token matures with time, just like Korea&apos;s favorite dish.
                 </p>
               </CardContent>
             </Card>
-            
+
             <Card className="group bg-gradient-to-br from-white/5 to-transparent backdrop-blur-xl border-white/10 hover:border-kimchi-orange/30 transition-all duration-300 hover:-translate-y-1">
               <CardContent className="flex flex-col items-center gap-4 p-6 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-kimchi-orange/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -127,7 +130,7 @@ export default function Home() {
             </div>
             <div className="text-white space-y-8">
               <p className="text-2xl font-display lowercase">
-                
+
               </p>
               <p className="text-3xl font-bold text-kimchi-red">SEOUL FOOD FOR YOUR SOUL.</p>
               <div className="space-y-8 text-white/80">
@@ -161,40 +164,215 @@ export default function Home() {
 
       {/* Solana Wallet Section */}
       <section className="relative px-4 py-32 bg-white overflow-hidden">
-          {/* Background Elements */}
-          <div className="absolute inset-0">
-            <div className="absolute left-0 w-1/3 blur-3xl bg-gradient-to-r from-kimchi-red via-kimchi-orange to-transparent opacity-50" />
-            <div className="absolute right-0 w-1/3 blur-3xl bg-gradient-to-l from-kimchi-yellow via-kimchi-orange to-transparent opacity-50" />
-          </div>
+        {/* Background Elements */}
+        <div className="absolute inset-0">
+          <div className="absolute left-0 w-1/3 blur-3xl bg-gradient-to-r from-kimchi-red via-kimchi-orange to-transparent opacity-50" />
+          <div className="absolute right-0 w-1/3 blur-3xl bg-gradient-to-l from-kimchi-yellow via-kimchi-orange to-transparent opacity-50" />
+        </div>
 
         <div className="container relative max-w-6xl mx-auto">
-            <div className="flex flex-col items-center text-center space-y-12">
-              <h2 className="font-display text-4xl sm:text-5xl lowercase text-primary">
-                The future is Fermented
-              </h2>
-              <div className="h-1 w-24 bg-gradient-to-r from-kimchi-red via-kimchi-orange to-kimchi-yellow rounded-full" />
-              <div className="space-y-8 max-w-[600px]">
-                <p className="text-primary/80 text-xl font-display">
-                  Kimchi is timeless. So is Kimchi Token. Whether you&apos;re here for the culture, the crypto, or the 🔥 memes, you&apos;re in the right place.
-                </p>
-              </div>
-              {/* Social Media Icons */}
-              <div className="flex flex-col items-center gap-8 my-16">
-                <Link href="https://x.com/kimchitoken" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
-                  <Image src="/X-icon.png" alt="X (Twitter)" width={48} height={48} className="opacity-90 hover:opacity-100" />
-                </Link>
-                <Link href="https://telegram.org" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
-                  <Image src="/telegram-icon.png" alt="Telegram" width={48} height={48} className="opacity-90 hover:opacity-100" />
-                </Link>
-              </div>
+          <div className="flex flex-col items-center text-center space-y-12">
+            <h2 className="font-display text-4xl sm:text-5xl lowercase text-primary">
+              The future is Fermented
+            </h2>
+            <div className="h-1 w-24 bg-gradient-to-r from-kimchi-red via-kimchi-orange to-kimchi-yellow rounded-full" />
+            <div className="space-y-8 max-w-[600px]">
+              <p className="text-primary/80 text-xl font-display">
+                Kimchi is timeless. So is Kimchi Token. Whether you&apos;re here for the culture, the crypto, or the 🔥 memes, you&apos;re in the right place.
+              </p>
+            </div>
+            {/* Social Media Icons */}
+            <div className="flex flex-col items-center gap-8 my-16">
+              <Link href="https://x.com/kimchitoken" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
+                <Image src="/X-icon.png" alt="X (Twitter)" width={48} height={48} className="opacity-90 hover:opacity-100" />
+              </Link>
+              <Link href="https://telegram.org" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
+                <Image src="/telegram-icon.png" alt="Telegram" width={48} height={48} className="opacity-90 hover:opacity-100" />
+              </Link>
+            </div>
 
-              <div className="flex flex-col gap-6">
-                <BuyButton text="Buy Kimchi Token" />
-                <WalletButton />
+            <div className="flex flex-col gap-6">
+              <BuyButton text="Buy Kimchi Token" />
+              <WalletButton />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Community Events Section */}
+      <section className="relative bg-[#141414] overflow-hidden">
+        {/* Background color overlay to cover any gaps */}
+        <div className="absolute inset-0 bg-[#141414] z-0" />
+
+        <div className="relative w-full z-10">
+          {/* Background Images */}
+          <div className="absolute inset-0 grid grid-cols-2">
+            {/* Left Side Images */}
+            <div className="relative h-full grid grid-rows-2">
+              <div className="relative h-full">
+                <Image
+                  src="/sm-kimchi-on-stage.png"
+                  alt="Kimchi Concert"
+                  fill
+                  className="object-cover filter grayscale"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  priority
+                />
+                <div className="absolute right-0 w-32 h-full bg-gradient-to-l from-[#141414] to-transparent" />
+              </div>
+              <div className="relative h-full">
+                <Image
+                  src="/sm-kimchi-joy-on-stage-poster.png"
+                  alt="Kimchi Joy Concert"
+                  fill
+                  className="object-cover filter grayscale"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  priority
+                />
+                <div className="absolute right-0 w-32 h-full bg-gradient-to-l from-[#141414] to-transparent" />
+              </div>
+            </div>
+
+            {/* Right Side Images */}
+            <div className="relative h-full grid grid-rows-2">
+              <div className="relative h-full">
+                <Image
+                  src="/sm-kimchi-joy-on-stage-poster.png"
+                  alt="Kimchi Joy Concert"
+                  fill
+                  className="object-cover filter grayscale"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  priority
+                />
+                <div className="absolute left-0 w-32 h-full bg-gradient-to-r from-[#141414] to-transparent" />
+              </div>
+              <div className="relative h-full">
+                <Image
+                  src="/sm-kimchi-on-stage.png"
+                  alt="Kimchi Concert"
+                  fill
+                  className="object-cover filter grayscale"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  priority
+                />
+                <div className="absolute left-0 w-32 h-full bg-gradient-to-r from-[#141414] to-transparent" />
               </div>
             </div>
           </div>
-        </section>
+
+          {/* Torn Paper Effect Overlays */}
+          {/* <div className="absolute inset-0 pointer-events-none z-20">
+            <div className="absolute left-1/2 top-0 w-px h-full bg-white/10 transform -translate-x-1/2" />
+            <div className="absolute left-1/2 top-0 w-8 h-full bg-gradient-to-r from-black/20 to-transparent transform -translate-x-1/2" />
+          </div> */}
+
+          {/* Poster Content */}
+          <div className="relative flex flex-col items-center justify-center text-white px-4">
+            <div className="space-y-8 bg-[#1a1a1a]/80 p-8 rounded-lg backdrop-blur-sm max-w-2xl mx-auto">
+              {/* <div className="space-y-4">
+                <h2 className="font-display text-4xl sm:text-5xl lowercase text-kimchi-orange text-center">
+                  community
+                </h2>
+                <div className="h-1 w-24 bg-gradient-to-r from-kimchi-red via-kimchi-orange to-kimchi-yellow rounded-full mx-auto" />
+              </div> */}
+
+              <div className="space-y-2">
+                <h1 className="font-merriweather text-7xl md:text-8xl font-bold tracking-wider">2025</h1>
+                <h2 className="font-merriweather text-6xl md:text-7xl font-bold tracking-wider leading-tight">
+                  KIMCHI
+                  <br />
+                  EVENTS
+                </h2>
+              </div>
+
+              {/* Event List */}
+              <div className="space-y-6 mt-8">
+                <div className="space-y-4">
+                  {/* ETH Denver */}
+                  <div className="flex items-center justify-between border-b border-white/20 pb-4">
+                    <div>
+                      <h3 className=" text-sm tracking-[0.3em] uppercase">ETH Denver</h3>
+                      {/* <p className="text-white/60 mt-1">Sign up for location</p> */}
+                    </div>
+                    <div className="text-right">
+                      <p className=" text-sm tracking-wider">FEB 27, 2025</p>
+                      <p className="font-montserrat text-white/60 mt-1">6 PM MST</p>
+                    </div>
+                  </div>
+
+                  {/* NYC */}
+                  <div className="flex items-center justify-between border-b border-white/20 pb-4">
+                    <div>
+                      <h3 className=" text-sm tracking-[0.3em] uppercase">New York City</h3>
+                      {/* <p className="text-white/60 mt-1">Sign up for location</p> */}
+                    </div>
+                    <div className="text-right">
+                      <p className=" text-sm tracking-wider">MAR 1, 2025</p>
+                      <p className="font-montserrat text-white/60 mt-1">6 PM EST</p>
+                    </div>
+                  </div>
+
+                  {/* Seattle */}
+                  <div className="flex items-center justify-between border-b border-white/20 pb-4">
+                    <div>
+                      <h3 className="text-sm tracking-[0.3em] uppercase">Seattle</h3>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-sm tracking-wider">MAR 2025</p>
+                    </div>
+                  </div>
+
+                  {/* Washington, D.C. */}
+                  <div className="flex items-center justify-between border-b border-white/20 pb-4">
+                    <div>
+                      <h3 className="text-sm tracking-[0.3em] uppercase">Washington, D.C.</h3>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-sm tracking-wider">MAY 2025</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Toronto */}
+                <div className="flex items-center justify-between border-b border-white/20 pb-4">
+                  <div>
+                    <h3 className="text-sm tracking-[0.3em] uppercase">Toronto</h3>
+                  </div>
+                  <div className="text-right">
+                    <p className="text-sm tracking-wider">MAY 2025</p>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <p className="text-white/60 mt-1">Sign up for location details.</p>
+              </div>
+
+              <div className="inline-block">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-kimchi-red via-kimchi-orange to-kimchi-yellow hover:opacity-80 transition-opacity duration-300"
+                >
+                  GET ON THE LIST
+                </Button>
+              </div>
+
+              <div>
+                <p className="text-sm text-white/60 max-w-md">
+                  Celebrate Korean culture and decentralized tech. More cities&nbsp;TBA.
+                </p>
+              </div>
+
+              {/* QR Code placeholder */}
+              <div className="mt-8">
+                <div className="inline-block transform -skew-x-12 bg-white/10 p-4">
+                  <div className="h-24 w-24" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="bg-[#141414] text-white py-16">
