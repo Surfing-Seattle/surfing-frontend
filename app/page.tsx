@@ -186,7 +186,7 @@ export default function Home() {
               <Link href="https://x.com/kimchitoken" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
                 <Image src="/X-icon.png" alt="X (Twitter)" width={48} height={48} className="opacity-90 hover:opacity-100" />
               </Link>
-              <Link href="https://telegram.org" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
+              <Link href="https://t.me/+9XF31DMSOUU3NzAx" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
                 <Image src="/telegram-icon.png" alt="Telegram" width={48} height={48} className="opacity-90 hover:opacity-100" />
               </Link>
             </div>
