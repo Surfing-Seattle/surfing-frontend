@@ -345,13 +345,14 @@ export default function Home() {
               </div>
 
               <div>
-                <p className="text-white/60 mt-1">Sign up for location details.</p>
+                <p className="text-white/60 mt-1">Join our Telegram for location details.</p>
               </div>
 
               <div className="inline-block">
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-kimchi-red via-kimchi-orange to-kimchi-yellow hover:opacity-80 transition-opacity duration-300"
+                  onClick={() => window.open("https://t.me/+9XF31DMSOUU3NzAx", "_blank")}
                 >
                   GET ON THE LIST
                 </Button>
@@ -359,7 +360,7 @@ export default function Home() {
 
               <div>
                 <p className="text-sm text-white/60 max-w-md">
-                  Celebrate Korean culture and decentralized tech. More cities&nbsp;TBA.
+                  Celebrate Korean culture and decentralized tech. More cities TBA. Join our Telegram for event details and announcements.
                 </p>
               </div>
 
