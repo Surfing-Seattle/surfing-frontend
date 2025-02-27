@@ -211,7 +211,7 @@ export default function Home() {
             <div className="relative h-full grid grid-rows-2">
               <div className="relative h-full">
                 <Image
-                  src="/sm-kimchi-on-stage.png"
+                  src="/kimchi-on-stage-poster.png"
                   alt="Kimchi Concert"
                   fill
                   className="object-cover filter grayscale"
@@ -222,7 +222,7 @@ export default function Home() {
               </div>
               <div className="relative h-full">
                 <Image
-                  src="/sm-kimchi-joy-on-stage-poster.png"
+                  src="/kimchi-joy-on-stage-poster.png"
                   alt="Kimchi Joy Concert"
                   fill
                   className="object-cover filter grayscale"
@@ -237,7 +237,7 @@ export default function Home() {
             <div className="relative h-full grid grid-rows-2">
               <div className="relative h-full">
                 <Image
-                  src="/sm-kimchi-joy-on-stage-poster.png"
+                  src="/kimchi-joy-on-stage-poster.png"
                   alt="Kimchi Joy Concert"
                   fill
                   className="object-cover filter grayscale"
@@ -248,7 +248,7 @@ export default function Home() {
               </div>
               <div className="relative h-full">
                 <Image
-                  src="/sm-kimchi-on-stage.png"
+                  src="/kimchi-on-stage-poster.png"
                   alt="Kimchi Concert"
                   fill
                   className="object-cover filter grayscale"
@@ -359,17 +359,17 @@ export default function Home() {
               </div>
 
               <div>
-                <p className="text-sm text-white/60 max-w-md">
+                <p className="text-sm text-white/60 max-w-md pb-6">
                   Celebrate Korean culture and decentralized tech. More cities TBA. Join our Telegram for event details and announcements.
                 </p>
               </div>
 
               {/* QR Code placeholder */}
-              <div className="mt-8">
+              {/* <div className="mt-8">
                 <div className="inline-block transform -skew-x-12 bg-white/10 p-4">
                   <div className="h-24 w-24" />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
