@@ -48,21 +48,25 @@ export default function RootLayout({
           position="top-center"
           toastOptions={{
             style: {
-              fontSize: '3rem',
-              padding: '1.5rem',
+              fontSize: 'clamp(2rem, 6vw, 3rem)', 
+              padding: 'clamp(1rem, 3vw, 1.5rem)', 
               backgroundColor: '#000',
-              color: '#FF8A3D', 
-              minWidth: '400px',
+              color: '#FF8A3D',
+              width: 'min(85vw, 400px)', 
               fontFamily: 'var(--font-montserrat)',
               textTransform: 'lowercase',
               fontWeight: 'normal',
               letterSpacing: '-0.02em',
-              border: '1px solid rgba(255, 138, 61, 0.2)', 
+              border: '1px solid rgba(255, 138, 61, 0.2)',
               borderRadius: '0.75rem',
               textAlign: 'center',
               display: 'flex',
               justifyContent: 'center',
-              alignItems: 'center'
+              alignItems: 'center',
+              position: 'fixed',
+              left: '50%',
+              transform: 'translateX(-50%)',
+              inset: 'auto auto auto 50%', 
             },
           }}
         />
