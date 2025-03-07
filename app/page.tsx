@@ -307,8 +307,8 @@ export default function Home() {
                       {/* <p className="text-white/60 mt-1">Sign up for location</p> */}
                     </div>
                     <div className="text-right">
-                      <p className=" text-sm tracking-wider">MAR 1, 2025</p>
-                      <p className="font-montserrat text-white/60 mt-1">6 PM EST</p>
+                      <p className=" text-sm tracking-wider">MAR 2025</p>
+                      {/* <p className="font-montserrat text-white/60 mt-1">6 PM EST</p> */}
                     </div>
                   </div>
 
@@ -319,6 +319,16 @@ export default function Home() {
                     </div>
                     <div className="text-right">
                       <p className="text-sm tracking-wider">MAR 2025</p>
+                    </div>
+                  </div>
+
+                  {/* Chicago */}
+                  <div className="flex items-center justify-between border-b border-white/20 pb-4">
+                    <div>
+                      <h3 className="text-sm tracking-[0.3em] uppercase">Chicago</h3>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-sm tracking-wider">APR 2025</p>
                     </div>
                   </div>
 
