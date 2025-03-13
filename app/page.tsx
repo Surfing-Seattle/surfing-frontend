@@ -291,8 +291,8 @@ export default function Home() {
                   {/* ETH Denver */}
                   <div className="flex items-center justify-between border-b border-white/20 pb-4">
                     <div>
-                      <h3 className=" text-sm tracking-[0.3em] uppercase">ETH Denver</h3>
-                      {/* <p className="text-white/60 mt-1">Sign up for location</p> */}
+                      <h3 className=" text-sm tracking-[0.3em] uppercase">Denver</h3>
+                      <p className="font-montserrat text-white/60 mt-1">ETH Denver</p>
                     </div>
                     <div className="text-right">
                       <p className=" text-sm tracking-wider">FEB 27, 2025</p>
@@ -304,11 +304,11 @@ export default function Home() {
                   <div className="flex items-center justify-between border-b border-white/20 pb-4">
                     <div>
                       <h3 className=" text-sm tracking-[0.3em] uppercase">New York City</h3>
-                      {/* <p className="text-white/60 mt-1">Sign up for location</p> */}
+                      <p className="font-montserrat text-white/60 mt-1">Digital Asset Summit</p>
                     </div>
                     <div className="text-right">
-                      <p className=" text-sm tracking-wider">MAR 2025</p>
-                      {/* <p className="font-montserrat text-white/60 mt-1">6 PM EST</p> */}
+                      <p className=" text-sm tracking-wider">MAR 17, 2025</p>
+                      <p className="font-montserrat text-white/60 mt-1">6:30 PM EST</p>
                     </div>
                   </div>
 
