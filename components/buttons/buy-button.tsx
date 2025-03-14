@@ -3,7 +3,6 @@
 import { Button } from "@/components/ui/button";
 import { Wallet } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { toast } from 'sonner';
 
 interface BuyButtonProps {
   className?: string;
@@ -12,9 +11,7 @@ interface BuyButtonProps {
 
 export function BuyButton({ className = "", text = "Buy Now" }: BuyButtonProps) {
   const handleClick = () => {
-    toast("coming soon!", {
-      duration: 3000,
-    });
+    window.open("https://raydium.io/swap/?inputMint=sol&outputMint=9ZjZXsUYiridcWV4DjtMCHiKVPKFk3jxswmjA2jgizUG", "_blank");
   };
 
   return (
