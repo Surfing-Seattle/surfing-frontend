@@ -3,7 +3,6 @@
 import { Button } from "@/components/ui/button";
 import { Wallet } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { toast } from 'sonner';
 
 interface BuyButtonProps {
   className?: string;
