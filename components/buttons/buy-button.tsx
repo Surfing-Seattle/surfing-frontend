@@ -12,9 +12,7 @@ interface BuyButtonProps {
 
 export function BuyButton({ className = "", text = "Buy Now" }: BuyButtonProps) {
   const handleClick = () => {
-    toast("coming soon!", {
-      duration: 3000,
-    });
+    window.open("https://raydium.io/swap/?inputMint=sol&outputMint=9ZjZXsUYiridcWV4DjtMCHiKVPKFk3jxswmjA2jgizUG", "_blank");
   };
 
   return (
