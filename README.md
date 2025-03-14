@@ -1,10 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌶️ KIMCHI TOKEN 🌶️
 
-## Getting Started
+<div align="center">
+  <img src="public/kimchi-logo-1-no-bg.png" alt="Kimchi Token Logo" width="300" />
+  <h3>The spiciest meme token on Solana.</h3>
+</div>
 
-First, run the development server:
+## 🔥 SEOUL FOOD FOR YOUR SOUL
+
+Some things in life transcend, and Kimchi is one of them. For generations, this fiery, fermented staple has been more than just food—it's a symbol of resilience, transformation, and unapologetic boldness. It's the spice that fuels Korean spirit, a dish so unique it's been passed down through centuries.
+
+Kimchi Token brings that same spicy energy into Web3. A meme coin that's more than just crypto—it's a movement. A celebration of Korean culture.
+
+## 🚀 Why Kimchi Token?
+
+### 🥬 Fermentation = Growth
+We believe in steady growth and building lasting value. Kimchi token matures with time, just like Korea's favorite dish.
+
+### 🌶️ Spice = Strength
+From mild to face-melting spicy, we embrace all levels of crypto enthusiasm. We are bringing the heat to DeFi!
+
+### 👥 Community = Power
+We are kimchi lovers and crypto enthusiasts spreading Korean culture one token at a time. 🇰🇷
+
+## 🔗 Links
+
+- [Website](https://kimchitoken.com)
+- [Twitter](https://twitter.com/kimchitoken)
+- [Telegram](https://t.me/kimchitoken)
+- [Discord](https://discord.gg/kimchitoken)
+
+## 🥢 How to Buy Kimchi Token
+
+1. Set up a [Solana wallet](https://phantom.app/)
+2. Fund your wallet with SOL
+3. Visit our [website](https://kimchitoken.com) and click "Buy Kimchi"
+4. Connect your wallet and swap SOL for KIMCHI
+
+## 💻 Getting Started
+
+This is a [Next.js](https://nextjs.org) project for the Kimchi Token website.
+
+### Prerequisites
+
+- Node.js (version 16 or higher)
+- npm, yarn, pnpm, or bun
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/kimchi-token.git
+cd kimchi-token
+
+# Install dependencies
+npm install
+# or
+yarn
+# or
+pnpm install
+# or
+bun install
+```
+
+### Development
+
+```bash
+# Run the development server
 npm run dev
 # or
 yarn dev
@@ -16,21 +77,21 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧰 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Lucide Icons](https://lucide.dev/) - Pretty icons 
+- [Sonner](https://sonner.emilkowal.ski/) - Toast notification
+- [Shadcn UI](https://ui.shadcn.com/) - UI components
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces
 
-## Learn More
+## 📝 License
 
-To learn more about Next.js, take a look at the following resources:
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center">
+  <p>🌶️ KIMCHI TOKEN - Bringing the heat to Web3 🌶️</p>
+</div>
